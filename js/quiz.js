@@ -1,12 +1,12 @@
 var reponsesCorrectes = {
     check1: true,
-    check2: true,
-    check3: false,
+    check2: false,
+    check3: true,
     check4: true,
     check5: false,
     check6: true,
     check7: true,
-    check8: false,
+    check8: true,
     check9: true,
     check10: true
 };
