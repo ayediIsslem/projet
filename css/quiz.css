@@ -1,0 +1,66 @@
+/* Styles généraux */
+.quiz {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #9c4040;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles pour les en-têtes h3 */
+/* Styles généraux */
+.quiz {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #9c4040;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles pour les en-têtes h3 */
+.quiz h3 {
+    margin-bottom: 5%;
+}
+
+/* Styles pour les cases à cocher et les labels */
+.quiz label {
+    display: block; /* Assure que chaque label occupe une ligne distincte */
+    margin-bottom: 10px;
+}
+
+/* Styles pour les boutons */
+div input[type="button"] {
+    background-color: #9c4040;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Styles pour le conteneur div */
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Styles pour les cases à cocher et les labels */
+.quiz label {
+    display: block; /* Assure que chaque label occupe une ligne distincte */
+    margin-bottom: 10px;
+}
+
+/* Styles pour les boutons */
+div input[type="button"] {
+    background-color: #9c4040;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Styles pour le conteneur div */
+div {
+    text-align: center;
+    margin-top: 20px;
+}

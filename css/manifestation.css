@@ -1,0 +1,41 @@
+.manifestation {
+    font-family: Arial, sans-serif;
+    
+    padding: 0% 7% 11%;
+  }
+  
+
+  
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    margin: 20px;
+    padding-right: 5px;
+  }
+  
+  h2 {
+    font-style: italic;
+    color: #963838;
+    font-weight: bold;
+    text-decoration: blink;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #adb6bf;
+  }
+  
+  p {
+    margin: 0;
+  }
+  

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script language="javascript" src="../js/quiz.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <h1>Mon Portfolio!</h1>
+</header>
+    <nav>
+        <ul>
+          <li><a href="../pageAccueil.html">Acceuil</a></li>
+          <li><a href="parcours.html">Parcours</a></li>
+
+          <li><a href="competence.html">Competences</a></li>
+
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="manifestation.html">Manifestation</a></li>
+          <li><a href="formation.html">Formation</a></li>
+          <li><a href="centreinteret.html">Centre Interet</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+
+        </ul>
+      </nav>
+      <div>
+        <form action="" name="quiz" class="quiz">
+            <h3>Cochez les bonnes réponses pour le sujet de développement web :</h3>
+            <table>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="check1" value="1" />
+                            Question 1: La balise 'article' est utilisée pour représenter un contenu indépendant et pouvant être réutilisé.
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="check2" value="1" />
+                            Question 2: La propriété CSS margin est utilisée pour définir l'espace à l'intérieur d'un élément.
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="check3" value="0" />
+                            Question 3: La balise 'figcaption' est utilisée pour décrire une légende pour un élément 'figure'.
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="check4" value="1" />
+                            Question 4: Git est un système de contrôle de version utilisé pour suivre les modifications dans le code source.
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="check5" value="0" />
+                            Question 5: L'unité de mesure em en CSS est relative à la taille de la police de l'élément parent.
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="check6" value="1" />
+                            Question 6: La balise 'section' est utilisée pour définir des sections dans un document HTML, comme des chapitres, des en-têtes, ou des pieds de page.
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="check7" value="1" />
+                            Question 7: L'instruction display: flex; en CSS est utilisée pour définir un modèle de boîte flexible.
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="check8" value="0" />
+                            Question 8: L'opérateur === en JavaScript compare la valeur et le type de deux opérandes.
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="check9" value="1" />
+                            Question 9: La balise 'mark' est utilisée pour marquer du texte dans un document HTML.
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="check10" value="1" />
+                            Question 10: L'instruction for...in en JavaScript est utilisée pour itérer sur les propriétés énumérables d'un objet.
+                        </label>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+<div>
+    <input type="button" name="button" value="Envoyer" onClick="afficherResultat()"/>
+</div>
+<div id="resultatSection" style="display: none;">
+    <h3>Votre résultat :</h3>
+    <p id="note"></p>
+    <h3>Réponses correctes :</h3>
+    <ul id="listeReponsesCorrectes">
+        <!-- Les réponses correctes seront ajoutées ici dynamiquement -->
+    </ul>
+</div>
+
+
+<footer>
+    <div class="footer">
+    <div class="row">
+    <a href="https://www.facebook.com/isslem.ayedi16/"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.instagram.com/islem__ayedi_/"><i class="fa fa-instagram"></i></a>
+    <a href="https://www.youtube.com/watch?v=MncUWFtg1_U&list=RD4Ygu___c0dA&index=17"><i class="fa fa-youtube"></i></a>
+    </div>
+    </div>
+</footer>
+
+</body>
+</html>
